@@ -1,0 +1,35 @@
+baseurl      = "localhost"
+title        = "PetrouSoft"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+
+[params]
+  # Subtitle for home
+  homeSubtitle = "A hacker's mindset company"
+
+  # Metadata mostly used in document's head
+  description = "PetrouSoft homepage"
+  keywords = "homepage"
+  [params.footer]
+    trademark = true
+    author = true
+
+[languages]
+    [languages.en.params.logo]
+      logoText = " cd $HOME"
+      logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "https://medium.com/@petrousov"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "https://petrousov.com/"
+
+[author]
+  name = "Ioannis Petrousov"
+
