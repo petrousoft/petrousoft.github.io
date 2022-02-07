@@ -1,4 +1,4 @@
-name: github pages
+name: PetrouSoft build
 
 on:
   push:
