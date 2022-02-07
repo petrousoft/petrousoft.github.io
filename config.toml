@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "www.petrousoft.com"
 title        = "PetrouSoft"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
