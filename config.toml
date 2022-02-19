@@ -30,6 +30,11 @@ theme        = "hello-friend-ng"
     name       = "About"
     url        = "https://petrousov.com/"
 
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "https://www.linkedin.com/in/ioannispetrousov/"
+
 [author]
   name = "Ioannis Petrousov"
 
