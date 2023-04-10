@@ -13,6 +13,7 @@ theme        = "hello-friend-ng"
   [params.footer]
     trademark = true
     author = true
+    KvK = true
 
 [languages]
     [languages.en.params.logo]
