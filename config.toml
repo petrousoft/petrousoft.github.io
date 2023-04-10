@@ -23,6 +23,11 @@ theme        = "hello-friend-ng"
 	name = "linkedin"
 	url  = "https://www.linkedin.com/in/ioannispetrousov/"
 
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/gpetrousov"
+
+
   [params.logo]
     logoMark     = ">"
     logoText     = "$ cd /home/"
