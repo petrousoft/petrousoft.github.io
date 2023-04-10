@@ -15,6 +15,14 @@ theme        = "hello-friend-ng"
     author = true
     KvK = true
 
+  [[params.social]]
+    name = "email"
+    url  = "mailto:contact@petrousoft.com"
+
+  [[params.social]]
+	name = "linkedin"
+	url  = "https://www.linkedin.com/in/ioannispetrousov/"
+
 [languages]
     [languages.en.params.logo]
       logoText = " cd $HOME"
@@ -30,11 +38,6 @@ theme        = "hello-friend-ng"
     identifier = "about"
     name       = "About"
     url        = "https://petrousov.com/"
-
-  [[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "https://www.linkedin.com/in/ioannispetrousov/"
 
 [author]
   name = "Ioannis Petrousov"
