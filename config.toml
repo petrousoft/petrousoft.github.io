@@ -23,6 +23,12 @@ theme        = "hello-friend-ng"
 	name = "linkedin"
 	url  = "https://www.linkedin.com/in/ioannispetrousov/"
 
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    logoCursorPathname = true
+
 [languages]
     [languages.en.params.logo]
       logoText = " cd $HOME"
