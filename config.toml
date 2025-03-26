@@ -48,7 +48,7 @@ theme        = "hello-friend-ng"
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "https://petrousov.com/"
+    url        = "https://www.linkedin.com/company/petrousoft"
 
 [author]
   name = "Ioannis Petrousov"
