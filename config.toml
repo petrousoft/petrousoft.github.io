@@ -21,11 +21,15 @@ theme        = "hello-friend-ng"
 
   [[params.social]]
 	name = "linkedin"
-	url  = "https://www.linkedin.com/in/ioannispetrousov/"
+	url  = "https://www.linkedin.com/company/petrousoft"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/gpetrousov"
+
+  [[params.social]]
+    name = "medium"
+    url = "blog.petrousoft.com"
 
 
   [params.logo]
@@ -40,11 +44,6 @@ theme        = "hello-friend-ng"
       logoHomeLink = "/"
 
 [menu]
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "https://medium.com/@petrousov"
-
   [[menu.main]]
     identifier = "about"
     name       = "About"
