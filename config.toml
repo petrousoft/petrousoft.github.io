@@ -43,7 +43,7 @@ theme        = "hello-friend-ng"
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
-    url        = "blog.petrousoft.com"
+    url        = "https://medium.com/@petrousov"
 
   [[menu.main]]
     identifier = "about"
