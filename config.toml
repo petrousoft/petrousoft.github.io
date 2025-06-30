@@ -40,7 +40,7 @@ theme        = "hello-friend-ng"
 
 [languages]
     [languages.en.params.logo]
-      logoText = " cd $HOME"
+      logoText = " cd $HOME/"
       logoHomeLink = "/"
 
 [menu]
