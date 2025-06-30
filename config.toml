@@ -29,7 +29,7 @@ theme        = "hello-friend-ng"
 
   [[params.social]]
     name = "medium"
-    url = "blog.petrousoft.com"
+    url = "https://blog.petrousoft.com"
 
 
   [params.logo]
