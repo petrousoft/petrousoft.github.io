@@ -48,6 +48,14 @@ theme        = "hello-friend-ng"
     identifier = "about"
     name       = "About"
     url        = "https://www.linkedin.com/company/petrousoft"
+    weight     = 10
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name       = "Portfolio"
+    url        = "/portfolio"
+    weight     = 30
+
 
 [author]
   name = "Ioannis Petrousov"
