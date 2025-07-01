@@ -17,7 +17,7 @@ theme        = "hello-friend-ng"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:contact@petrousoft.com"
+    url  = "contact@petrousoft.com"
 
   [[params.social]]
 	name = "linkedin"
