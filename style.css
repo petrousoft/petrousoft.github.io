@@ -1,0 +1,210 @@
+:root {
+    --bg-color: #0d1117;
+    --text-color: #c9d1d9;
+    --accent-color: #58a6ff;
+    --prompt-color: #7ee787;
+    --border-color: #30363d;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+}
+
+.prompt {
+    color: var(--prompt-color);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.slogan {
+    font-family: var(--font-mono);
+    color: #8b949e;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+main section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+ul li::before {
+    content: "> ";
+    color: var(--prompt-color);
+    font-family: var(--font-mono);
+    margin-right: 0.5rem;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    font-family: var(--font-mono);
+    background-color: rgba(110, 118, 129, 0.4);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+footer {
+    margin-top: 4rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+    text-align: center;
+    color: #8b949e;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1.5rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Carousel Styles */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem 0;
+    position: relative;
+    white-space: nowrap;
+    border-top: 1px dashed var(--border-color);
+    border-bottom: 1px dashed var(--border-color);
+    margin-top: 2rem;
+}
+
+.carousel-container::before,
+.carousel-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    z-index: 2;
+}
+
+.carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg-color), transparent);
+}
+
+.carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg-color), transparent);
+}
+
+.carousel-track {
+    display: inline-flex;
+    animation: scroll 15s linear infinite;
+    gap: 4rem;
+}
+
+.carousel-item {
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    color: var(--text-color);
+    opacity: 0.6;
+    transition: opacity 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.carousel-item:hover {
+    opacity: 1;
+    color: var(--accent-color);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Translates exactly half the track width (the 4 original items + their gaps) */
+        transform: translateX(calc(-50% - 2rem)); 
+    }
+}
+
+/* Services Styles */
+.service-item {
+    margin-bottom: 2.5rem;
+}
+
+.service-item h3 {
+    font-family: var(--font-mono);
+    font-size: 1.15rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
